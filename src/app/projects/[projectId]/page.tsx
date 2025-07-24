@@ -31,7 +31,6 @@ const Page = async ({ params }: Props) => {
           <ProjectView projectId={projectId} />
         </Suspense>
       </HydrationBoundary>
-      ;
     </>
   );
 };

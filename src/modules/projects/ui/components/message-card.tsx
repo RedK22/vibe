@@ -107,7 +107,6 @@ const AssistantMessage = ({
           )}
         </div>
       </div>
-      ;
     </>
   );
 };
