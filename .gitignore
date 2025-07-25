@@ -4,6 +4,8 @@
 ./inngest/*
 inngest/main.db
 inngest/main.db-journal
+.inngest/
+
 
 # dependencies
 /node_modules
