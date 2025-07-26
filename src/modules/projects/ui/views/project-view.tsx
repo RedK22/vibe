@@ -45,7 +45,8 @@ export const ProjectView = ({ projectId }: Props) => {
               />
             </Suspense>
           </ResizablePanel>
-          <ResizableHandle withHandle />
+
+          <ResizableHandle className="hover:bg-primary transition-colors" />
           <ResizablePanel defaultSize={65} minSize={50}>
             <Tabs
               className="h-full gap-y-0 "
@@ -65,7 +66,7 @@ export const ProjectView = ({ projectId }: Props) => {
                   </TabsTrigger>
                 </TabsList>
                 <div className="ml-auto flex items-center gap-x-2">
-                  <Button asChild variant={"default"} size="sm">
+                  <Button asChild variant={"tertiary"} size="sm">
                     <Link href="/pricing">
                       <CrownIcon /> Upgrade
                     </Link>
