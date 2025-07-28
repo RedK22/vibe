@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useTRPC } from "@/trpc/client";
+import { useUser } from "@clerk/nextjs";
 import { useQuery } from "@tanstack/react-query";
 import { formatDistanceToNow } from "date-fns";
 import Image from "next/image";
@@ -10,6 +11,9 @@ import Link from "next/link";
 export const ProjectsList = () => {
   const trpc = useTRPC();
   const { data: projects } = useQuery(trpc.projects.getMany.queryOptions());
+  const { user } = useUser();
+
+  if (!user) return null;
 
   return (
     <>
