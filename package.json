@@ -10,6 +10,8 @@
     "inngrun": "npx inngest-cli@1.8.0 dev"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.23.0",
+    "@clerk/themes": "^2.4.2",
     "@e2b/code-interpreter": "^1.5.1",
     "@hookform/resolvers": "^5.1.1",
     "@inngest/agent-kit": "^0.8.3",
