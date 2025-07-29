@@ -28,7 +28,7 @@ export const ProjectView = ({ projectId }: Props) => {
   const [tabState, setTabState] = useState<"preview" | "code">("preview");
 
   const { has } = useAuth();
-  const hasPro = has({ plan: "pro" });
+  const hasPro = has?.({ plan: "pro" });
 
   return (
     <>

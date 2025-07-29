@@ -13,7 +13,7 @@ interface Props {
 
 export const Usage = ({ points, msBeforeNext }: Props) => {
   const { has } = useAuth();
-  const hasPro = has({ plan: "pro" });
+  const hasPro = has?.({ plan: "pro" });
 
   return (
     <>
