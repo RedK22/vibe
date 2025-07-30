@@ -1,12 +1,6 @@
 import { useTRPC } from "@/trpc/client";
 import { useSuspenseQuery } from "@tanstack/react-query";
-import {
-  ChevronDown,
-  ChevronDownIcon,
-  ChevronLeft,
-  EditIcon,
-  SunMoonIcon,
-} from "lucide-react";
+import { ChevronDownIcon, ChevronLeft, SunMoonIcon } from "lucide-react";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";

@@ -8,7 +8,7 @@ interface Props {
   showName?: boolean;
 }
 
-const UserControl = ({ showName }: Props) => {
+const UserControl = ({}: Props) => {
   const currentTheme = useCurrentTheme();
 
   return (
