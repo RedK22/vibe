@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vibe - AI Website Generator
 
-## Getting Started
+Vibe is an AI-powered platform that allows you to create websites and applications by simply chatting with AI. Describe what you want to build, and Vibe will generate a complete, functional Next.js application for you.
 
-First, run the development server:
+## What is Vibe?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Vibe transforms the way websites and applications are created. Instead of writing code manually, you can have a conversation with an AI assistant that understands your requirements and generates the code for you. The AI handles all the technical details while you focus on your vision.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **AI-Powered Code Generation**: Generate complete Next.js applications through natural language conversation
+- **Live Preview**: See your application running in real-time as the AI builds it
+- **Project Management**: Create and manage multiple projects
+- **Modern UI Components**: Built with Shadcn UI and Tailwind CSS
+- **Responsive Design**: All generated applications are mobile-friendly by default
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technology Stack
 
-## Learn More
+### Frontend
+- **Next.js 15**: React framework with App Router
+- **React 19**: UI library
+- **Tailwind CSS**: Utility-first CSS framework
+- **Shadcn UI**: High-quality UI components built with Radix UI and Tailwind
 
-To learn more about Next.js, take a look at the following resources:
+### Backend
+- **tRPC**: End-to-end typesafe API
+- **Prisma**: Type-safe ORM
+- **NeonDB (PostgreSQL)**: Serverless Postgres database
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### AI & Code Generation
+- **OpenAI GPT Models**: Natural language processing
+- **Inngest**: Agent framework for orchestrating AI workflows
+- **E2B Code Interpreter**: Sandbox environment for safe code execution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Authentication
+- **Clerk**: User authentication and management
